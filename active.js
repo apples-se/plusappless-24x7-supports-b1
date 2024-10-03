@@ -261,11 +261,11 @@
 	/*------- product view mode change js start -------*/
     $('.product-view-mode a').on('click', function (e) {
         e.preventDefault();
-        var shopProductWrap = $('.shop-product-wrap');
+        var ShopProductWrap = $('.Shop-product-wrap');
         var viewMode = $(this).data('target');
         $('.product-view-mode a').removeClass('active');
         $(this).addClass('active');
-        shopProductWrap.removeClass('grid-view list-view').addClass(viewMode);
+        ShopProductWrap.removeClass('grid-view list-view').addClass(viewMode);
 	})
 	/*------- product view mode change js end -------*/
 

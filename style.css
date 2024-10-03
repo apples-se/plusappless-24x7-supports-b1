@@ -3104,8 +3104,6 @@ only screen and (max-width: 767.98px) {
 
 .product-thumb img {
     width: 100%;
-    object-fit: contain;
-    height: 278px;
 }
 
 .product-thumb .sec-img {
